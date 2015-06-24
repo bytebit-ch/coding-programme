@@ -141,6 +141,7 @@ img {
   -webkit-transform: scale(1.15);
   -ms-transform: scale(1.15);
   transform: scale(1.15);
+      color: red;
 }
 
 
@@ -174,6 +175,8 @@ img {
   width: 60px;
   float: left;
   text-align: center;
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s, color 1s;
 }
 .post-content {
   float: left;
@@ -276,11 +279,11 @@ img {
   flaot: left;
 }
 
-input { 
-  border: 0; 
-}
-
-.search {
+input.search { 
+  border: 0;
+  width: 200px;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s; 
   font-size: 18px;
   outline: 0;
 }
@@ -290,9 +293,9 @@ input {
   display: inline-block;
   padding: 5px;
   border-radius: 60px;
-  transition: width 2s;
-  
 }
+
+
 
 .search:hover {
   width: 460px;
