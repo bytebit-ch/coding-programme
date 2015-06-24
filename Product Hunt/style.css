@@ -5,13 +5,27 @@
 }
 html {
   font-size: 62.5%;
+  font-family: Raleway;
 }
 body {
   font-size: 1.6rem;
 }
 
+a {
+  text-decoration: none;
+}
 
+img {
+  width: 17px;
+ 
+}
 
+.bar {
+  border-radius: 20px;
+  margin-left: 200px;
+  padding: 60px;
+  
+}
 
 .content-wrap {
   width: 900px;
@@ -51,8 +65,7 @@ body {
 
 }
 .search {
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
+  border:0;
 }
 .login {
   float: right;
@@ -100,12 +113,31 @@ body {
   margin-right: 20px;
   padding: 15px 0;
 }
-.main-nav-links li.active,
-.main-nav-links li:hover {
+.main-nav-links li.active {
+  color: #cc66ff;
+  border-bottom: 3px solid #cc66ff;
+}
+
+.main-nav-links li.games:hover {
+  color: #99ffcc;
+  border-bottom: 3px solid #99ffcc;
+}
+
+.main-nav-links li.collections:hover {
   color: #5898F1;
   border-bottom: 3px solid #5898F1;
 }
 
+.main-nav-links li.news:hover {
+  color: #990066;
+  border-bottom: 3px solid #990066;
+}
+
+.vote-wrap:hover{
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
 
 
 .day-header {
@@ -172,9 +204,93 @@ body {
   color: #BBB;
 }
 
+.post-content {
+  text-decoration: none;
+}
 
 
+.hoverbox .box {
+  display: none;
+  border: 1px solid black;
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  top: -195px;
+  background: white;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.hoverbox {
+  display: inline-block;
+  position: relative;
+}
+
+.hoverbox:hover .box {
+  display: block;
+  position: absolute;
+}
+
+#avatar {
+  
+  text-align: center;
+}
+
+#follow {
+  background: #99ffcc;
+  text-align: center;
+  border-radius: 10px;
+
+  width: 70px;
+  margin-left: 40px;
+  
+}
+
+#secondline {
+  text-align: center;
+}
+
+#popup {
+  float: center;
+  height: 40px;
+  width: 40px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+}
+
+#magnifier {
+  width: 17px;
+  height; 17px;
+}
+
+#exit 
+{
+  width: 20px;
+  height: 20px;
+  padding-top: 0px;
+  margin: -3px;
+  flaot: left;
+}
+
+input { 
+  border: 0; 
+}
+
+.search {
+  font-size: 18px;
 
 
+}
 
+.bar {
+  border: 1px solid #D3D3D3;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 60px;
+  transition: width 2s;
+  
+}
 
+.search:hover {
+  width: 400px;
+}

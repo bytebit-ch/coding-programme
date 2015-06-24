@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -22,9 +23,12 @@
         <div class="logo">
           <h1>Product Hunt</h1>
         </div>
-
-        <input type="search" class="search" placeholder="Search for a product...">
-
+        <div class="bar">
+           <label>
+            <img id='magnifier'src=magnifier58.svg>
+            </label>
+          <input type="search" class="search" placeholder="Search for a product..."> <img id='exit' src='gtk-close.png'>
+      </div>
 
         <a href="#" class="add-new-post">+</a>
         <a href="#" class="login">Log in</a>
@@ -40,8 +44,9 @@
 
         <ul class="main-nav-links group">
           <li class="active">Tech</li>
-          <li>Games&beta;</li>
-          <li>Collections</li>
+          <li class="games">Games&beta;</li>
+          <li class ="collections">Collections</li>
+          <li class="news">News</li>
         </ul>
 
       </div>
@@ -64,16 +69,21 @@
           <div class="vote-wrap">
             &#9650;
             <br>
-            <span class="votes">128</span>
+            <span class="votes">999</span>
           </div>
           <div class="post-content">
-            <h3 class="post-title">Webydo 2.0</h3>
-            <p class="post-description">Seamless web design platform for professionals, code-free</p>
+            <a href="https://www.youtube.com/watch?v=9sJUDx7iEJw"><h3 class="post-title">Free Software Song</h3></a>
+            <p class="post-description">Stallman singing about free software</p>
           </div>
           <div class="post-meta">
-            <span class="post-comments">29</span>
+            <span class="post-comments">99</span>
 
-            <img src="https://gravatar.com/avatar/28683d49924b65a841927ca2ab239ec2.png" alt="post-creator" class="post-creator">
+            <div class='hoverbox'>
+            <img src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator" class="post-creator">
+            <div class='box'>
+              <p id='avatar'> <img id='popup'src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator"><br><strong>Chris Harris</p><p id='secondline'><i>Programmer</i><br><a href='https://www.twitter.com'>@ChrisHarris</a></p><p id='follow'>Follow</p>
+            </div>
+          </div>
           </div>
         </div>
 
@@ -81,16 +91,86 @@
           <div class="vote-wrap">
             &#9650;
             <br>
-            <span class="votes">128</span>
+            <span class="votes">100</span>
           </div>
           <div class="post-content">
-            <h3 class="post-title">Webydo 2.0</h3>
-            <p class="post-description">Seamless web design platform for professionals, code-free</p>
+           <a href="https://www.fsf.org/blogs/rms/"><h3 class="post-title">Richard Stallman's awesome blog posts!</h3></a>
+            
+            <p class="post-description">Awesome blog posts from Richard Stallman</p>
           </div>
           <div class="post-meta">
-            <span class="post-comments">29</span>
+            <span class="post-comments">10</span>
 
-            <img src="https://gravatar.com/avatar/28683d49924b65a841927ca2ab239ec2.png" alt="post-creator" class="post-creator">
+            <div class='hoverbox'>
+            <img src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator" class="post-creator">
+            <div class='box'>
+              <p id='avatar'> <img id='popup'src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator"><br><strong>Chris Harris</p><p id='secondline'><i>Programmer</i><br><a href='https://www.twitter.com'>@ChrisHarris</a></p><p id='follow'>Follow</p>
+            </div>
+          </div>
+          </div>
+        </div>
+         <div class="post group">
+          <div class="vote-wrap">
+            &#9650;
+            <br>
+            <span class="votes">369</span>
+          </div>
+          <div class="post-content">
+            <a href="https://news.ycombinator.com/"><h3 class="post-title">Hacker News</h3></a>
+            
+            <p class="post-description">Programming, technology, and science blog posts and news </p>
+          </div>
+          <div class="post-meta">
+            <span class="post-comments">15</span>
+
+            <div class='hoverbox'>
+            <img src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator" class="post-creator">
+            <div class='box'>
+              <p id='avatar'> <img id='popup'src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator"><br><strong>Chris Harris</p><p id='secondline'><i>Programmer</i><br><a href='https://www.twitter.com'>@ChrisHarris</a></p><p id='follow'>Follow</p>
+            </div>
+          </div>
+          </div>
+        </div>
+         <div class="post group">
+          <div class="vote-wrap">
+            &#9650;
+            <br>
+            <span class="votes">430</span>
+          </div>
+          <div class="post-content">
+            <a href="https://groups.google.com/a/mysociety.org/forum/#!msg/mysociety-community/zkyZpOXjgoQ/_8xyXSxv9zYJ"><h3 class="post-title">Inviting Richard Stallman to Speak at your Convention</h3></a>
+        
+            <p class="post-description">Guidelines to follow if you want Richard Stallman as a guest speaker</p>
+          </div>
+          <div class="post-meta">
+            <span class="post-comments">43</span>
+            
+            <div class='hoverbox'>
+            <img src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator" class="post-creator">
+            <div class='box'>
+              <p id='avatar'> <img id='popup'src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator"><br><strong>Chris Harris</p><p id='secondline'><i>Programmer</i><br><a href='https://www.twitter.com'>@ChrisHarris</a></p><p id='follow'>Follow</p>
+            </div>
+          </div>
+          </div>
+        </div>
+         <div class="post group">
+          <div class="vote-wrap">
+            &#9650;
+            <br>
+            <span class="votes">846</span>
+          </div>
+          <div class="post-content">
+            <a href=http://arstechnica.com/><h3 class="post-title">Ars Technica</h3></a>
+            <p class="post-description">Technology, gaming, and gadget news</p>
+          </div>
+          <div class="post-meta">
+            <span class="post-comments">12</span>
+            <div class='hoverbox'>
+            <img src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator" class="post-creator">
+            <div class='box'>
+              <p id='avatar'> <img id='popup'src="https://secure.gravatar.com/avatar/fd057f1d585d43bba970999c90eea118.png" alt="post-creator"><br><strong>Chris Harris</p><p id='secondline'><i>Programmer</i><br><a href='https://www.twitter.com'>@ChrisHarris</a></p><p id='follow'>Follow</p>
+            </div>
+          </div>
           </div>
         </div>
 
