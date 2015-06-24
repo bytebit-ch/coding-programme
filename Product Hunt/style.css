@@ -19,10 +19,14 @@ img {
   width: 17px;
  
 }
+.search-container {
+  width: 550px;
+  text-align: right;
+  display: inline-block;
+}
 
 .bar {
   border-radius: 20px;
-  margin-left: 200px;
   padding: 60px;
   
 }
@@ -41,7 +45,7 @@ img {
 }
 .logo {
   float: left;
-  width: 300px;
+  width: 200px;
 }
 .logo h1 {
   margin: 0;
@@ -278,8 +282,7 @@ input {
 
 .search {
   font-size: 18px;
-
-
+  outline: 0;
 }
 
 .bar {
@@ -292,5 +295,5 @@ input {
 }
 
 .search:hover {
-  width: 400px;
+  width: 460px;
 }
